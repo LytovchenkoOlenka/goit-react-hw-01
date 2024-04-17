@@ -1,0 +1,22 @@
+.table {
+  border-collapse: collapse;
+  width: 600px;
+}
+.raw:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+.data {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 4px 72px;
+  text-transform: capitalize;
+  border: 1px solid #000;
+}

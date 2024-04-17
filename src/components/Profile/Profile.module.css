@@ -1,0 +1,63 @@
+.cardContainer {
+  border: 2px solid #000;
+  width: 360px;
+  border-radius: 6px;
+}
+
+.profilCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: rgb(250, 246, 246);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 160px;
+  background-color: rgb(63, 62, 62);
+}
+
+.userName {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 16px 0;
+}
+
+.userInfo {
+  color: rgb(145, 145, 145);
+  margin: 4px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(207, 207, 207);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  gap: 4px;
+  width: calc(100% / 3);
+  border: 1px solid rgb(133, 133, 133);
+}
+
+.statsTitle {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.statsNumber {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+}
